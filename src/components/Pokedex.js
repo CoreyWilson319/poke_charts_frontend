@@ -1,4 +1,5 @@
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom"
+import { useState } from "react-router-dom"
+import axios from "axios";
 
 function Pokedex() {
   return (
